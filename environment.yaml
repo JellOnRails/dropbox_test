@@ -1,0 +1,17 @@
+# ----- ENVIRONMENTS SETTINGS
+
+environments:
+  test:
+    url: "https://www.dropbox.com"
+
+# ----- USERS SETTINGS
+
+users:
+  dropbox_valid_user:
+    email: "jell13@rambler.ru"
+    password_encoded: "UXdlcnR5MTIz\n"
+    password: "Qwerty123"
+
+# ----- GENERAL SETTINGS
+
+use_encoded_password: true
