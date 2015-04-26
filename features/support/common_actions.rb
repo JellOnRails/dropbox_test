@@ -1,4 +1,6 @@
+
 def get_user_info(usr)
+
   begin
     user = CONFIG['users'].fetch(usr)
   rescue e
@@ -9,10 +11,17 @@ def get_user_info(usr)
     user['password'] = Base64.decode64(user['password_encoded'].dup) unless user['password_encoded'].nil?
   end
 
-  puts ">>> I'm <#{usr}> user" # todo: remove after debug
   user
 end
 
 def get_env_url
+
   CONFIG['environments']["#{ENV['environment']}"]['url']
+
+end
+
+def get_folder_name
+
+  CONFIG[ 'folder_name' ]
+
 end

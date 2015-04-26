@@ -1,10 +1,10 @@
-# ----- ENVIRONMENTS SETTINGS
+# ---- ENVIRONMENT SETTINGS ----
 
 environments:
   test:
     url: "https://www.dropbox.com"
 
-# ----- USERS SETTINGS
+# ---- USERS SETTINGS ----
 
 users:
   dropbox_valid_user:
@@ -12,6 +12,10 @@ users:
     password_encoded: "UXdlcnR5MTIz\n"
     password: "Qwerty123"
 
-# ----- GENERAL SETTINGS
+# ---- GENERAL SETTINGS ----
 
 use_encoded_password: true
+
+# ---- GENERATE ELEMENT NAMES ----
+
+folder_name: 'test_folder'
