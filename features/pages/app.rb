@@ -9,4 +9,8 @@ class App
     HomePage.new
   end
 
+  def events_page
+    EventsPage.new
+  end
+
 end

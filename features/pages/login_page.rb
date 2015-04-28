@@ -21,12 +21,12 @@ class LoginPage < SitePrism::Page
   element :sign_in_button, '#sign-in'
 
 # -- action --
-  def sign_in_as( user )
+  def sign_in_as( usr )
 
-    @user = get_user_info user
+    user = get_user_info usr
     sign_in_button.click
-    sign_in_section.email_field.set @user[ 'email' ]
-    sign_in_section.password_field.set @user[ 'password' ]
+    sign_in_section.email_field.set user[ 'email' ]
+    sign_in_section.password_field.set user[ 'password' ]
     sign_in_section.sign_in_button.click
 
   end

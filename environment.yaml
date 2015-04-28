@@ -16,6 +16,6 @@ users:
 
 use_encoded_password: true
 
-# ---- GENERATE ELEMENT NAMES ----
+# ---- TEST DATA ----
 
 folder_name: 'test_folder'

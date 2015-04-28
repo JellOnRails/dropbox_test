@@ -8,5 +8,11 @@ Feature: Add element
 
   @add_element @folder
   Scenario: Create folder
-    When I create a folder
+    When I create folder
     Then I should see new folder
+
+  @add_element @event
+  Scenario: Update event log
+    When I create folder
+    And I go to events_page
+    Then I should see added folder event
