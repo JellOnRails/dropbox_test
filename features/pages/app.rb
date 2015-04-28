@@ -13,4 +13,20 @@ class App
     EventsPage.new
   end
 
+  def photos_page
+    PhotosPage.new
+  end
+
+  def share_page
+    SharePage.new
+  end
+
+  def links_page
+    LinksPage.new
+  end
+
+  def get_started_page
+    GetStartedPage.new
+  end
+
 end
